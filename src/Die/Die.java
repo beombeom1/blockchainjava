@@ -14,7 +14,7 @@ public class Die {
         this.number = number;
     }
 
-    private int number;
+    int number;
     Die(){
         this.name = name;
     }
