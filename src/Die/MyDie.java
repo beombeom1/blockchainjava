@@ -15,5 +15,9 @@ public class MyDie {
         Dietest d4 = new Dietest();
         d4.roll();
         System.out.println("d4 : " + d4.getNumber());
+
+        OddDie d5 = new OddDie("D5");
+        d5.roll();
+        System.out.println("d5 : " + d5.getNumber());
     }
 }
