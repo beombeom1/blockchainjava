@@ -40,5 +40,8 @@ public class MyDie {
         FairDie d6 = new FairDie();
         d6.roll();
         System.out.println("d6 : " + d6.getNumber());
+
+        WDie d7 = new WDie();
+        System.out.println("WDie : " + d7.roll());
     }
 }
